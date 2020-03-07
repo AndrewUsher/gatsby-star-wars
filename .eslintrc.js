@@ -1,3 +1,6 @@
 module.exports = {
-  extends: ['@drewster']
+  extends: ['@drewster'],
+  globals: {
+    fetch: true
+  }
 }
